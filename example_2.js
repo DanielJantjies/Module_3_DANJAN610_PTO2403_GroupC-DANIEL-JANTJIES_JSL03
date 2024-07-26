@@ -19,7 +19,7 @@ function cookSteak(steakWeight, desiredDoneness) {
         case 'Season steak':
           console.log(`Seasoning the steak with ${step.seasoning}`);
           break;
-        case 'Cook steak until desired doneness':
+        case 'Cook steak until desired doneness':-
           console.log(`Cooking steak to ${step.desiredDoneness}°C`); // Display temperature in Celsius
           break;
         case 'Serve steak':
